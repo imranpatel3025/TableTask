@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { iempArr } from './models/interface';
+
+import { empArr, studentArr, productArr, courseArr, bookArr } from './const/tableTask';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TableTask';
+  empArr = empArr;
+  studentArr = studentArr;
+  productArr = productArr;
+  courseArr = courseArr;
+  bookArr = bookArr;
+
 }
+
